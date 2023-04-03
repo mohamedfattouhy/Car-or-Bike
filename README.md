@@ -13,5 +13,7 @@ I used a CNN with three convolutional layers, each followed by a max pooling lay
 ### Results
 After training the model, I evaluated its performance on the test set. The model achieved an accuracy of 85%, which indicates that it is able to accurately classify car and bike images.
 
+![Prediction of a batch of images](.image/prediction_array.png)
+
 ### Conclusion
 This project demonstrates how to build and train a simple image classification model using TensorFlow. The Car or Bike dataset is a great dataset to start with for image classification tasks. With more data and a more complex model architecture, we could potentially improve the accuracy of the model even further.
