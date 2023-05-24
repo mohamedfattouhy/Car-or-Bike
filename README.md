@@ -1,5 +1,5 @@
 ## Car or Bike Image Classification using TensorFlow
-This repository contains the code for my project on image classification of car and bike images using TensorFlow. The dataset used for this project is sourced from Kaggle's Car or Bike dataset. To load data: [Car vs Bike Classification Dataset](https://www.kaggle.com/datasets/utkarshsaxenadn/car-vs-bike-classification-dataset).
+This repository contains the code for my project on image classification of car and bike images using TensorFlow. The dataset used for this project is sourced from Kaggle's Car or Bike dataset. To load data: [Car vs Bike Classification Dataset](https://www.kaggle.com/datasets/utkarshsaxenadn/car-vs-bike-classification-dataset){:target="_blank"}.
 
 Note: I you want to use the code, you will have to download the data and put them in the sub-directories: **data/train**, **data/test** and **data/validation**. These directories will be created if they do not already exist.
 
@@ -15,7 +15,7 @@ I used a CNN with three convolutional layers, each followed by a max pooling lay
 ### Results
 After training the model, I evaluated its performance on the test set. The model achieved an accuracy of 85%, which indicates that it is able to accurately classify car and bike images.
 
-![Prediction of a batch of images](.image/prediction_array.png)
+![Prediction of a batch of images](static/prediction_array.png)
 
 ### Conclusion
 This project demonstrates how to build and train a simple image classification model using TensorFlow. The Car or Bike dataset is a great dataset to start with for image classification tasks. With more data and a more complex model architecture, we could potentially improve the accuracy of the model even further.
